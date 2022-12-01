@@ -1,0 +1,23 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "my first project on Hexlet",
+  "main": "bin/brain-games.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexanderRyzhov/frontend-project-44.git"
+  },
+  "keywords": [
+    "js",
+    "frontend"
+  ],
+  "author": "Alexander Ryzhov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexanderRyzhov/frontend-project-44/issues"
+  },
+  "homepage": "https://github.com/AlexanderRyzhov/frontend-project-44#readme"
+}
