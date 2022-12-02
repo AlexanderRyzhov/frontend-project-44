@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/AlexanderRyzhov/frontend-project-44/issues"
   },
-  "homepage": "https://github.com/AlexanderRyzhov/frontend-project-44#readme"
+  "homepage": "https://github.com/AlexanderRyzhov/frontend-project-44#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }
