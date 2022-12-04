@@ -182,3 +182,25 @@ Let's try again, Sam!
 Аскинема с примером запуска игры, победой и поражением игрока:
 
 [![asciicast](https://asciinema.org/a/kBkvU1crUtlHuVFEV6UH5qsWt.svg)](https://asciinema.org/a/kBkvU1crUtlHuVFEV6UH5qsWt)
+
+## brain-prime (игра: "Простое ли число?")
+
+Пример:
+
+```
+brain-prime
+
+Welcome to the Brain Games!
+May I have your name? Sam
+Hello, Sam!
+Answer "yes" if given number is prime. Otherwise answer "no".
+Question: 7
+Your answer: yes
+Correct!
+```
+
+Весь вывод и логика в случае правильного и неправильного ответа повторяют предыдущие шаги.
+
+Аскинема с примером запуска игры, победой и поражением игрока:
+
+[![asciicast](https://asciinema.org/a/a7STNWlz4KtPHO48TBsWhHXWR.svg)](https://asciinema.org/a/a7STNWlz4KtPHO48TBsWhHXWR)
