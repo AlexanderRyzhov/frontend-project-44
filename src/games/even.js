@@ -11,7 +11,7 @@ const generateQuestion = () => {
     correctAnswer = 'no';
   }
   const question = `Question: ${num}!`;
-  
+
   return [question, correctAnswer];
 };
 

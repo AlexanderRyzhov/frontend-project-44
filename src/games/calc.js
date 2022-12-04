@@ -1,15 +1,20 @@
 import { getRandomInt, runGame } from '../index.js';
 
-const generateQuestion = () => {
-  const operations = ['+', '-', '*'];
-  const operation = getRandomInt(3);
-
+const getQuestionLimit = (operation) => {
   let maxValue;
   if (operation < 2) {
     maxValue = 100;
   } else {
     maxValue = 25;
   }
+  return maxValue;
+};
+
+const generateQuestion = () => {
+  const operations = ['+', '-', '*'];
+  const operation = getRandomInt(3);
+  const maxValue = getQuestionLimit(operation);
+
   const num1 = getRandomInt(maxValue);
   const num2 = getRandomInt(maxValue);
 
