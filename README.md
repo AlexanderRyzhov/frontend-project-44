@@ -104,3 +104,41 @@ Congratulations, Sam!
 Аскинема с примером запуска игры, победой и поражением игрока:
 
 [![asciicast](https://asciinema.org/a/pVlK0rjs0yBJgRWUuwvmiIdcH.svg)](https://asciinema.org/a/pVlK0rjs0yBJgRWUuwvmiIdcH)
+
+
+## brain-gcd (игра: "Наибольший общий делитель (НОД)")
+
+Суть игры в следующем: пользователю показывается два случайных числа, например, 25 50. Пользователь должен вычислить и ввести наибольший общий делитель этих чисел.
+
+Вывод должен получиться следующий:
+
+```
+brain-gcd
+
+Welcome to the Brain Games!
+May I have your name? Sam
+Hello, Sam!
+Find the greatest common divisor of given numbers.
+Question: 25 50
+Your answer: 25
+Correct!
+Question: 100 52
+Your answer: 4
+Correct!
+Question: 3 9
+Your answer: 3
+Correct!
+Congratulations, Sam!
+```
+
+В случае, если пользователь даст неверный ответ, необходимо вывести:
+```
+Question: 25 50
+Your answer: 1
+'1' is wrong answer ;(. Correct answer was '25'.
+Let's try again, Sam!
+```
+
+Аскинема с примером запуска игры, победой и поражением игрока:
+
+[![asciicast](https://asciinema.org/a/eoVIdWQbEzlL2XqZV1hsH7q2q.svg)](https://asciinema.org/a/eoVIdWQbEzlL2XqZV1hsH7q2q)
