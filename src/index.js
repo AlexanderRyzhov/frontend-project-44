@@ -15,13 +15,13 @@ const getName = () => {
   return name;
 };
 
-const runGame = (rules, generateQuestion) => {
+const runGame = (rulesMessage, generateQuestionAndAnswer) => {
   const name = getName();
-  console.log(rules);
+  console.log(rulesMessage);
 
   const tries = 3;
   for (let i = 0; i < tries; i += 1) {
-    const [question, correctAnswer] = generateQuestion();
+    const [question, correctAnswer] = generateQuestionAndAnswer();
     console.log(question);
     const userInput = readlineSync.question('Your answer: ');
 

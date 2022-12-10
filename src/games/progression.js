@@ -1,6 +1,6 @@
 import { getRandomInt, getRandomIntInRange, runGame } from '../index.js';
 
-const generateQuestion = () => {
+const generateQuestionAndAnswer = () => {
   const sequenceLenght = getRandomIntInRange(5, 11);
   const questionPosition = getRandomInt(sequenceLenght);
 
@@ -30,7 +30,7 @@ const generateQuestion = () => {
 
 const runProgressionGame = () => {
   const rulesMessage = 'What number is missing in the progression?';
-  runGame(rulesMessage, generateQuestion);
+  runGame(rulesMessage, generateQuestionAndAnswer);
 };
 
 export default runProgressionGame;

@@ -1,6 +1,6 @@
 import { getRandomInt, runGame } from '../index.js';
 
-const generateQuestion = () => {
+const generateQuestionAndAnswer = () => {
   const maxValue = 100;
   const num = getRandomInt(maxValue);
 
@@ -17,7 +17,7 @@ const generateQuestion = () => {
 
 const runEvenGame = () => {
   const rulesMessage = 'Answer "yes" if the number is even, otherwise answer "no".';
-  runGame(rulesMessage, generateQuestion);
+  runGame(rulesMessage, generateQuestionAndAnswer);
 };
 
 export default runEvenGame;

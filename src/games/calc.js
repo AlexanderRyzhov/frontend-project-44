@@ -10,7 +10,7 @@ const getQuestionLimit = (operation) => {
   return maxValue;
 };
 
-const generateQuestion = () => {
+const generateQuestionAndAnswer = () => {
   const operations = ['+', '-', '*'];
   const operation = getRandomInt(3);
   const maxValue = getQuestionLimit(operation);
@@ -40,7 +40,7 @@ const generateQuestion = () => {
 
 const runCalcGame = () => {
   const rulesMessage = 'What is the result of the expression?';
-  runGame(rulesMessage, generateQuestion);
+  runGame(rulesMessage, generateQuestionAndAnswer);
 };
 
 export default runCalcGame;

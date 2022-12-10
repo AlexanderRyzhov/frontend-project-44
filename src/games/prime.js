@@ -13,7 +13,7 @@ const isPrime = (num) => {
   return true;
 };
 
-const generateQuestion = () => {
+const generateQuestionAndAnswer = () => {
   const maxValue = 1000;
   const num = getRandomInt(maxValue);
 
@@ -30,7 +30,7 @@ const generateQuestion = () => {
 
 const runPrimeGame = () => {
   const rulesMessage = 'Answer "yes" if given number is prime. Otherwise answer "no".';
-  runGame(rulesMessage, generateQuestion);
+  runGame(rulesMessage, generateQuestionAndAnswer);
 };
 
 export default runPrimeGame;
