@@ -17,13 +17,8 @@ const generateQuestionAndAnswer = () => {
   const maxValue = 1000;
   const num = getRandomInt(maxValue);
 
-  let correctAnswer;
-  if (isPrime(num)) {
-    correctAnswer = 'yes';
-  } else {
-    correctAnswer = 'no';
-  }
   const question = `Question: ${num}!`;
+  const correctAnswer = (isPrime(num)) ? 'yes' : 'no';
 
   return [question, correctAnswer];
 };
