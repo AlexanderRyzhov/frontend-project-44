@@ -16,8 +16,8 @@ const generateQuestion = () => {
 };
 
 const runEvenGame = () => {
-  const rules = 'Answer "yes" if the number is even, otherwise answer "no".';
-  runGame(rules, generateQuestion);
+  const rulesMessage = 'Answer "yes" if the number is even, otherwise answer "no".';
+  runGame(rulesMessage, generateQuestion);
 };
 
 export default runEvenGame;

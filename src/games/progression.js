@@ -30,7 +30,7 @@ const generateQuestion = () => {
 
 const runProgressionGame = () => {
   const rulesMessage = 'What number is missing in the progression?';
-  runGame(rules, generateQuestion);
+  runGame(rulesMessage, generateQuestion);
 };
 
 export default runProgressionGame;

@@ -20,8 +20,8 @@ const generateQuestion = () => {
 };
 
 const runGcdGame = () => {
-  const rules = 'Find the greatest common divisor of given numbers.';
-  runGame(rules, generateQuestion);
+  const rulesMessage = 'Find the greatest common divisor of given numbers.';
+  runGame(rulesMessage, generateQuestion);
 };
 
 export default runGcdGame;

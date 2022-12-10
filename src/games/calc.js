@@ -39,8 +39,8 @@ const generateQuestion = () => {
 };
 
 const runCalcGame = () => {
-  const rules = 'What is the result of the expression?';
-  runGame(rules, generateQuestion);
+  const rulesMessage = 'What is the result of the expression?';
+  runGame(rulesMessage, generateQuestion);
 };
 
 export default runCalcGame;

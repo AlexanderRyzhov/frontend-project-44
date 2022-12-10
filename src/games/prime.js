@@ -29,8 +29,8 @@ const generateQuestion = () => {
 };
 
 const runPrimeGame = () => {
-  const rules = 'Answer "yes" if given number is prime. Otherwise answer "no".';
-  runGame(rules, generateQuestion);
+  const rulesMessage = 'Answer "yes" if given number is prime. Otherwise answer "no".';
+  runGame(rulesMessage, generateQuestion);
 };
 
 export default runPrimeGame;
