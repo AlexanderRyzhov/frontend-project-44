@@ -1,8 +1,17 @@
 import { getRandomInt, getRandomIntInRange, runGame } from '../index.js';
 
+const generateProgression = (sequenceLenght, startValue, step) => {
+  const items = [];
+  for (let i = 0; i < sequenceLenght; i += 1) {
+    const val = startValue + (i * step);
+    items.push(val);
+  }
+};
+
 const generateQuestionAndAnswer = () => {
-  const sequenceLenght = getRandomIntInRange(5, 11);
-  const questionPosition = getRandomInt(sequenceLenght);
+  const minSequenceLenght = 5;
+  const maxSequenceLenght = 11;
+  const sequenceLenght = getRandomIntInRange(minSequenceLenght, maxSequenceLenght);
 
   const startMaxValue = 100;
   const startValue = getRandomInt(startMaxValue);
@@ -11,19 +20,14 @@ const generateQuestionAndAnswer = () => {
   const maxStep = 10;
   const step = getRandomIntInRange(minStep, maxStep);
 
-  let correctAnswer;
-  const items = [];
-  for (let i = 0; i < sequenceLenght; i += 1) {
-    const val = startValue + (i * step);
-    if (i !== questionPosition) {
-      items.push(val);
-    } else {
-      items.push('..');
-      correctAnswer = val.toString();
-    }
-  }
+  const items = generateProgression(sequenceLenght, startValue, step);
+  const questionPosition = getRandomInt(sequenceLenght);
+
+  const hiddenItem = items[questionPosition];
+  items[questionPosition] = '..';
 
   const question = `Question: ${items.join(' ')}`;
+  const correctAnswer = hiddenItem.toString();
 
   return [question, correctAnswer];
 };
