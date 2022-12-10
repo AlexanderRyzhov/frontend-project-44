@@ -1,7 +1,7 @@
 import readlineSync from 'readline-sync';
 
 function getRandomInt(max) {
-  return Math.floor(Math.random() * max);
+  return getRandomIntInRange(0, max);
 }
 
 function getRandomIntInRange(min, max) {
