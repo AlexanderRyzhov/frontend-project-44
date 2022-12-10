@@ -28,9 +28,9 @@ const generateQuestion = () => {
   return [question, correctAnswer];
 };
 
-const progressionGame = () => {
-  const rules = 'What number is missing in the progression?';
+const runProgressionGame = () => {
+  const rulesMessage = 'What number is missing in the progression?';
   runGame(rules, generateQuestion);
 };
 
-export default progressionGame;
+export default runProgressionGame;
