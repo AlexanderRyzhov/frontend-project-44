@@ -8,7 +8,24 @@
 
 ### CodeClimate maintainability status:
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/0b8ba57676879b22cad7/maintainability)](https://codeclimate.com/github/AlexanderRyzhov/frontend-project-44/maintainability)
+# Системеые требования
+
+- [Node.js](https://nodejs.org/en/) версии >= 13 - это платформа с открытым исходным кодом для работы с языком JavaScript, построенная на движке Chrome V8. Она позволяет писать серверный код для веб-приложений и динамических веб-страниц, а также программ командной строки.
+- [readline-sync версии >= 1.4.10](https://github.com/anseki/readline-sync) - библиотека для чтения пользовательского ввода,
+
+для разрабтки используются следующие утилиты и сервисы:
+
+- утилита `make` и `Makefile`
+- [Eslint](https://eslint.org/) - программа, отвечающие за проверку кода на соответствие стандартам + стандарт [Airbnb Style Guide](https://github.com/airbnb/javascript)
+- [CodeClimate](https://codeclimate.com/) - онлайн-сервис оценки качества кода
+
+# Инструкция по разворачиванию проекта
+
+- склонировать репозиторий проекта
+- в дирректории проекта запустить команду `make insall` для установки зависимостей
+- установить пакет в систему с помощью `npm link`, может потребовать запуск с `sudo`
+- убедиться в том, что проект развернут успешно, запустив `brain-games` в терминале
+
 
 # Описание игр
 
