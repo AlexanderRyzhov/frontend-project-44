@@ -1,16 +1,16 @@
 import { getRandomInt, runGame } from '../index.js';
 
+const isEven = (num) => {
+  const result = (num % 2 === 0);
+  return result;
+};
+
 const generateQuestionAndAnswer = () => {
   const maxValue = 100;
   const num = getRandomInt(maxValue);
 
-  let correctAnswer;
-  if (num % 2 === 0) {
-    correctAnswer = 'yes';
-  } else {
-    correctAnswer = 'no';
-  }
   const question = `Question: ${num}!`;
+  const correctAnswer = isEven(num) ? 'yes' : 'no';
 
   return [question, correctAnswer];
 };
