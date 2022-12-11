@@ -6,6 +6,7 @@ const generateProgression = (sequenceLenght, startValue, step) => {
     const val = startValue + (i * step);
     items.push(val);
   }
+  return items;
 };
 
 const generateQuestionAndAnswer = () => {
