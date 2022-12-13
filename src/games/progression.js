@@ -1,4 +1,4 @@
-import { getRandomInt, getRandomIntInRange, runGame } from '../index.js';
+import { getRandomInt, runGame } from '../index.js';
 
 const generateProgression = (sequenceLenght, startValue, step) => {
   const items = [];
@@ -12,7 +12,7 @@ const generateProgression = (sequenceLenght, startValue, step) => {
 const generateQuestionAndAnswer = () => {
   const minSequenceLenght = 5;
   const maxSequenceLenght = 11;
-  const sequenceLenght = getRandomIntInRange(minSequenceLenght, maxSequenceLenght);
+  const sequenceLenght = getRandomInt(minSequenceLenght, maxSequenceLenght);
 
   const startMaxValue = 100;
   const startValue = getRandomInt(startMaxValue);

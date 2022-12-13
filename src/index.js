@@ -1,11 +1,9 @@
 import readlineSync from 'readline-sync';
 
-function getRandomIntInRange(min, max) {
+function getRandomInt(a, b = 0) {
+  const min = Math.min(a, b);
+  const max = Math.max(a, b);
   return min + Math.floor(Math.random() * (max - min));
-}
-
-function getRandomInt(max) {
-  return getRandomIntInRange(0, max);
 }
 
 const getName = () => {
@@ -36,4 +34,4 @@ const runGame = (rulesMessage, generateQuestionAndAnswer) => {
   console.log(`Congratulations, ${name}!`);
 };
 
-export { getRandomInt, getRandomIntInRange, runGame };
+export { getRandomInt, runGame };
