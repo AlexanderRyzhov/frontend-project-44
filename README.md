@@ -79,7 +79,7 @@ Congratulations, Sam!
 
 Аскинема с примером установки пакета, запуска игры, победой и поражением игрока:
 
-[![asciicast](https://asciinema.org/a/fp8U3Yms4AEMKOXiEjwTFUNVp.svg)](https://asciinema.org/a/fp8U3Yms4AEMKOXiEjwTFUNVp)
+[![asciicast](https://asciinema.org/a/tysEkO5k1GrChgO8N1mp67XtS.svg)](https://asciinema.org/a/tysEkO5k1GrChgO8N1mp67XtS)
 
 ## brain-calc (игра: "Калькулятор")
 
@@ -121,7 +121,7 @@ Congratulations, Sam!
 ```
 Аскинема с примером запуска игры, победой и поражением игрока:
 
-[![asciicast](https://asciinema.org/a/pVlK0rjs0yBJgRWUuwvmiIdcH.svg)](https://asciinema.org/a/pVlK0rjs0yBJgRWUuwvmiIdcH)
+[![asciicast](https://asciinema.org/a/8wV8fu3112EsNrqt7AkPXC0Yn.svg)](https://asciinema.org/a/8wV8fu3112EsNrqt7AkPXC0Yn)
 
 
 ## brain-gcd (игра: "Наибольший общий делитель (НОД)")
@@ -159,7 +159,7 @@ Let's try again, Sam!
 
 Аскинема с примером запуска игры, победой и поражением игрока:
 
-[![asciicast](https://asciinema.org/a/eoVIdWQbEzlL2XqZV1hsH7q2q.svg)](https://asciinema.org/a/eoVIdWQbEzlL2XqZV1hsH7q2q)
+[![asciicast](https://asciinema.org/a/eFutasKW49ySGowlJc0pvCTSk.svg)](https://asciinema.org/a/eFutasKW49ySGowlJc0pvCTSk)
 
 ## brain-progression (игра: "Арифметическая прогрессия")
 
@@ -199,7 +199,7 @@ Let's try again, Sam!
 
 Аскинема с примером запуска игры, победой и поражением игрока:
 
-[![asciicast](https://asciinema.org/a/kBkvU1crUtlHuVFEV6UH5qsWt.svg)](https://asciinema.org/a/kBkvU1crUtlHuVFEV6UH5qsWt)
+[![asciicast](https://asciinema.org/a/ixeY58XKhR90K9ryNnbnmjyv2.svg)](https://asciinema.org/a/ixeY58XKhR90K9ryNnbnmjyv2)
 
 ## brain-prime (игра: "Простое ли число?")
 
@@ -221,4 +221,4 @@ Correct!
 
 Аскинема с примером запуска игры, победой и поражением игрока:
 
-[![asciicast](https://asciinema.org/a/a7STNWlz4KtPHO48TBsWhHXWR.svg)](https://asciinema.org/a/a7STNWlz4KtPHO48TBsWhHXWR)
+[![asciicast](https://asciinema.org/a/C3bR6lXwTUmil7JlRzzcak6Zo.svg)](https://asciinema.org/a/C3bR6lXwTUmil7JlRzzcak6Zo)
