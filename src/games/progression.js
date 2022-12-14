@@ -19,7 +19,7 @@ const generateQuestionAndAnswer = () => {
 
   const minStep = 1;
   const maxStep = 10;
-  const step = getRandomIntInRange(minStep, maxStep);
+  const step = getRandomInt(minStep, maxStep);
 
   const items = generateProgression(sequenceLenght, startValue, step);
   const questionPosition = getRandomInt(sequenceLenght);
